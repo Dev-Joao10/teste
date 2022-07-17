@@ -204,6 +204,15 @@ ul li:nth-child(3) a:hover:before {
     }
 }
 
+@media only screen and (orientation: landscape) {
+    .container {
+        overflow: auto;
+    }
+    body {
+        overflow: auto;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     .content {
         position: absolute;
@@ -335,14 +344,5 @@ ul li:nth-child(3) a:hover:before {
     }
     .description{
         font-size: 0.625em;
-    }
-}
-
-@media only screen and (orientation: landscape) {
-    .container {
-        overflow: auto;
-    }
-    body {
-        overflow: auto;
     }
 }
