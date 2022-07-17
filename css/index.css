@@ -467,16 +467,6 @@ footer {
   header {
     flex-direction: column-reverse;
   }
-
-  @keyframes animate {
-    0% {
-      transform: translateY(116vh) scale(0);
-    }
-
-    100% {
-      transform: translateY(-10vh) scale(1);
-    }
-  }
 }
 
 /* Fim da Responsividade */
