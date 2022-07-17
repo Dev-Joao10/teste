@@ -466,7 +466,7 @@ footer {
 @media only screen and (max-width: 768px) {
   @keyframes animate {
     0% {
-      transform: translateY(160vh) scale(0);
+      transform: translateY(140vh) scale(0);
     }
 
     100% {
@@ -488,6 +488,18 @@ footer {
 
   header {
     flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  @keyframes animate {
+    0% {
+      transform: translateY(160vh) scale(0);
+    }
+
+    100% {
+      transform: translateY(-10vh) scale(1);
+    }
   }
 }
 
