@@ -14,6 +14,7 @@ body {
   background: #0c192c;
   min-height: 100vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -137,7 +138,6 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
 }
 
 .botoes ul {
@@ -434,9 +434,9 @@ footer {
     width: 100%;
   }
 
-  footer {
+  /* footer {
     margin-top: 20px;
-  }
+  } */
 
   .lista-botoes {
     gap: 30px;
