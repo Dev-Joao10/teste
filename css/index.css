@@ -439,9 +439,9 @@ footer {
     gap: 50px;
   }
 
-  footer {
+  /* footer {
     margin-top: -20px;
-  }
+  } */
 
   @keyframes animate {
     0% {
