@@ -339,3 +339,12 @@ ul li:nth-child(3) a:hover:before {
         font-size: 0.625em;
     }
 }
+
+@media only screen and (orientation: landscape) {
+    .container {
+        overflow: auto;
+    }
+    body {
+        overflow: auto;
+    }
+}
