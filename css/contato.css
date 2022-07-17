@@ -206,14 +206,14 @@ ul li:nth-child(3) a:hover:before {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #095A55;
+    color: #1E9BFF;
     font-weight: 500;
 }
 
 .contact .contactForm .formBox .inputBox input[type="submit"] {
     position: relative;
     cursor: pointer;
-    background: #095A55;
+    background: #6eb9f51a;
     color: #fff;
     border: none;
     max-width: 150px;
@@ -221,8 +221,16 @@ ul li:nth-child(3) a:hover:before {
 }
 
 .contact .contactForm .formBox .inputBox input[type="submit"]:hover {
-    background: #0D948B;
+    background-color: #1E9BFF;
+    color: #000;
+    text-transform: uppercase;
 }
+
+.contact .contactForm .formBox .inputBox input[type="button"]:hover {
+    background-color: #1E9BFF;
+    color: #000;
+    text-transform: uppercase;
+} */
 
 /*
 .content:before {
@@ -534,6 +542,15 @@ ul li:nth-child(3) a:hover:before {
 
     .contact .contactForm .formBox .inputBox.w50 {
         width: 100%;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .container {
+        overflow: auto;
+    }
+    body {
+        overflow: auto;
     }
 }
 
