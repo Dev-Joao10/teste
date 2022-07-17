@@ -439,6 +439,10 @@ footer {
     gap: 30px;
   }
 
+  footer {
+    margin-top: -20px;
+  }
+
   @keyframes animate {
     0% {
       transform: translateY(110vh) scale(0);
@@ -463,9 +467,6 @@ footer {
 
   header {
     flex-direction: column-reverse;
-  }
-  .container {
-    overflow: hidden;
   }
 }
 
