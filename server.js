@@ -22,12 +22,12 @@ app.get('/', (req, res) => {
     res.send('Hello');
 });
 
-app.get('/pages/contato', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/pages/contato.html'));
     console.log('this is the form that shows')
 });
 
-app.post('/pages/contato', (req, res) => {
+app.post('/', (req, res) => {
     
     "use strict";
 
