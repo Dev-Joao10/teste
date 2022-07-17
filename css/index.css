@@ -425,7 +425,7 @@ footer {
 
 /* Responsividade */
 
-@media only screen and (orientation: landscape) and (max-width: 768px) {
+@media only screen and (orientation: landscape) {
   .container {
     overflow: auto;
   }
@@ -434,7 +434,7 @@ footer {
   }
 
   footer {
-    margin-left: 25px;
+    margin: 0 auto;
   }
 }
 
