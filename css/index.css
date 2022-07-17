@@ -455,17 +455,24 @@ footer {
 
 @media only screen and (max-width: 690px) {
   .img-inicio {
-    width: 280px;
-    height: 280px;
+    width: 220px;
+    height: 190px;
     margin-top: 30px;
   }
 
   .sub-titulo {
-    top: 218px;
+    top: 160px;
   }
 
   header {
     flex-direction: column-reverse;
+  }
+  .container {
+    overflow: hidden;
+  }
+
+  footer {
+    margin-top: 0;
   }
 }
 
