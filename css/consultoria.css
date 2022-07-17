@@ -276,11 +276,6 @@ ul li:nth-child(3) a:hover:before {
         overflow-y: hidden;
     }
 
-    .container {
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
-
     .content {
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
@@ -340,5 +335,14 @@ ul li:nth-child(3) a:hover:before {
     }
     .description{
         font-size: 0.625em;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .container {
+        overflow: auto;
+    }
+    body {
+        overflow: auto;
     }
 }
