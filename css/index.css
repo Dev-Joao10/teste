@@ -434,9 +434,9 @@ footer {
     width: 100%;
   }
 
-  /* footer {
-    margin-top: 20px;
-  } */
+  footer {
+    margin-top: 0;
+  }
 
   .lista-botoes {
     gap: 30px;
