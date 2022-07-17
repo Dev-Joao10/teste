@@ -438,7 +438,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 921px) {
+@media only screen and (max-width: 951px) {
   .botoes ul {
     flex-direction: column;
     margin: 0 auto;
