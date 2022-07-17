@@ -432,6 +432,10 @@ footer {
   body {
     overflow: auto;
   }
+
+  footer {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 921px) {
