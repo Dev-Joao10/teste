@@ -11,12 +11,14 @@ body {
     background: #0C192C;
     min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
     position: relative;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Menu */
