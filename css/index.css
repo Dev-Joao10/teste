@@ -425,7 +425,13 @@ footer {
 
 /* Responsividade */
 
-@media only screen and (max-width: 82rem) {
+@media only screen and (orientation: landscape) {
+  .container {
+      overflow: auto;
+  }
+  body {
+      overflow: auto;
+  }
 }
 
 @media only screen and (max-width: 921px) {
