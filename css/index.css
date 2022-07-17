@@ -361,8 +361,8 @@ footer {
   letter-spacing: 5px;
   text-transform: uppercase;
   font-family: consolas;
-  animation: typing 8s steps(11) infinite;
-  overflow: hidden;
+  animation: typing 8s steps(12) infinite;
+  overflow-x: hidden;
 }
 
 @keyframes typing {
@@ -373,7 +373,7 @@ footer {
   }
   30%,
   60% {
-    width: 181.96px;
+    width: 218.35px;
   }
 }
 
