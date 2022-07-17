@@ -452,13 +452,13 @@ footer {
 
 @media only screen and (max-width: 690px) {
   .img-inicio {
-    width: 220px;
-    height: 190px;
+    width: 280px;
+    height: 280px;
     margin-top: 30px;
   }
 
   .sub-titulo {
-    top: 160px;
+    top: 215px;
   }
 
   header {
