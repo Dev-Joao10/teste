@@ -236,21 +236,6 @@ ul li:nth-child(3) a:hover:before {
     }
 }
 
-@media only screen and (min-width: 761px), (max-width: 800px){
-    .container {
-        overflow: hidden;
-    }
-
-    .card-header img {
-        width: 12.5rem;
-        height: 18.75rem;
-    }
-
-    .description {
-        gap: 1.25rem;
-    }
-}
-
 @media only screen and (max-width: 760px) {
     .card-content {
         display: block;
