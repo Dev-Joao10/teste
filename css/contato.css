@@ -211,7 +211,8 @@ ul li:nth-child(3) a:hover:before {
     font-weight: 500;
 }
 
-.contact .contactForm .formBox .inputBox input[type="submit"] {
+.contact .contactForm .formBox .inputBox input[type="submit"],
+.contact .contactForm .formBox .inputBox input[type="button"] {
     position: relative;
     cursor: pointer;
     background: #6eb9f51a;
