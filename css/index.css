@@ -427,10 +427,10 @@ footer {
 
 @media only screen and (orientation: landscape) {
   .container {
-      overflow: auto;
+    overflow: auto;
   }
   body {
-      overflow: auto;
+    overflow: auto;
   }
 }
 
@@ -451,7 +451,7 @@ footer {
 
   @keyframes animate {
     0% {
-      transform: translateY(110vh) scale(0);
+      transform: translateY(102vh) scale(0);
     }
 
     100% {
