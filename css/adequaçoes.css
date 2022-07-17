@@ -273,10 +273,10 @@ ul li:nth-child(3) a:hover:before {
         overflow-y: hidden;
     }
 
-    .container {
+    /* .container {
         overflow-x: hidden;
         overflow-y: auto;
-    }
+    } */
 
     .content {
         margin-top: 1.25rem;
