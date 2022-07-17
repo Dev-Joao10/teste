@@ -436,7 +436,7 @@ footer {
   }
 
   .lista-botoes {
-    gap: 30px;
+    gap: 50px;
   }
 
   @keyframes animate {
