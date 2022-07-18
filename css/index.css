@@ -506,7 +506,7 @@ footer {
 @media only screen and (min-width: 280px) {
   @keyframes animate {
     0% {
-      transform: translateY(150vh) scale(0);
+      transform: translateY(160vh) scale(0);
     }
 
     100% {
