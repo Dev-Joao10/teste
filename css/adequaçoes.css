@@ -222,6 +222,30 @@ ul li:nth-child(3) a:hover:before {
     }
 }
 
+@media only screen and (max-width: 1023px) {
+    @keyframes animate {
+        0% {
+          transform: translateY(720px) scale(0);
+        }
+    
+        100% {
+          transform: translateY(-10vh) scale(1);
+        }
+      }
+}
+
+@media only screen and (max-width: 890px) {
+    @keyframes animate {
+        0% {
+          transform: translateY(800px) scale(0);
+        }
+    
+        100% {
+          transform: translateY(-10vh) scale(1);
+        }
+      }
+}
+
 @media only screen and (max-width: 821px) {
     .card-header img {
         width: 13.75rem;
@@ -282,6 +306,16 @@ ul li:nth-child(3) a:hover:before {
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
     }
+
+    @keyframes animate {
+        0% {
+          transform: translateY(900px) scale(0);
+        }
+    
+        100% {
+          transform: translateY(-10vh) scale(1);
+        }
+      }
 
     /* @keyframes animate {
         0% {
@@ -382,13 +416,5 @@ ul li:nth-child(3) a:hover:before {
 }
 
 @media only screen and (min-width: 280px) {
-    @keyframes animate {
-      0% {
-        transform: translateY(900px) scale(0);
-      }
-  
-      100% {
-        transform: translateY(-10vh) scale(1);
-      }
-    }
+    
 }
