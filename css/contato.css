@@ -590,10 +590,10 @@ ul li:nth-child(3) a:hover:before {
 
 @media only screen and (orientation: landscape) {
   .container {
-    overflow: auto;
+    overflow-y: auto;
   }
   body {
-    overflow: auto;
+    overflow-y: auto;
   }
 }
 
