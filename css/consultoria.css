@@ -225,6 +225,18 @@ ul li:nth-child(3) a:hover:before {
     }
 }
 
+@media only screen and (max-width: 1023px) {
+    @keyframes animate {
+        0% {
+          transform: translateY(970px) scale(0);
+        }
+    
+        100% {
+          transform: translateY(-10vh) scale(1);
+        }
+      }
+}
+
 @media only screen and (max-width: 821px) {
     .card-header img {
         width: 13.75rem;
