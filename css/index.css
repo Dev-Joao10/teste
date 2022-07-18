@@ -432,10 +432,6 @@ footer {
   body {
     overflow: auto;
   }
-
-  footer {
-    margin-left: 0;
-  }
 }
 
 @media only screen and (max-width: 951px) {
@@ -450,6 +446,16 @@ footer {
 
   footer {
     margin-top: 100px;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateY(954px) scale(0);
+    }
+
+    100% {
+      transform: translateY(-10vh) scale(1);
+    }
   }
 
   /* @keyframes animate {
@@ -502,17 +508,5 @@ footer {
     }
   }
 } */
-
-@media only screen and (min-width: 280px) {
-  @keyframes animate {
-    0% {
-      transform: translateY(900px) scale(0);
-    }
-
-    100% {
-      transform: translateY(-10vh) scale(1);
-    }
-  }
-}
 
 /* Fim da Responsividade */
