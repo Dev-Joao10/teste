@@ -233,7 +233,7 @@ ul li:nth-child(3) a:hover:before {
     .content {
         margin-top: 0.75rem;
     }
-    @keyframes animate {
+    /* @keyframes animate {
         0% {
           transform: translateY(712px) scale(0);
         }
@@ -241,7 +241,7 @@ ul li:nth-child(3) a:hover:before {
         100% {
           transform: translateY(-10vh) scale(1);
         }
-      }
+      } */
 }
 
 @media only screen and (max-width: 760px) {
@@ -283,7 +283,7 @@ ul li:nth-child(3) a:hover:before {
         margin-bottom: 1.25rem;
     }
 
-    @keyframes animate {
+    /* @keyframes animate {
         0% {
           transform: translateY(950px) scale(0);
         }
@@ -291,7 +291,7 @@ ul li:nth-child(3) a:hover:before {
         100% {
           transform: translateY(-10vh) scale(1);
         }
-      }
+      } */
 }
 
 @media only screen and (max-width: 437px) {
@@ -299,7 +299,7 @@ ul li:nth-child(3) a:hover:before {
         font-size: 0.875em;
     }
 
-    @keyframes animate {
+    /* @keyframes animate {
         0% {
           transform: translateY(870px) scale(0);
         }
@@ -307,7 +307,7 @@ ul li:nth-child(3) a:hover:before {
         100% {
           transform: translateY(-10vh) scale(1);
         }
-      }
+      } */
 }
 
 @media only screen and (max-width: 371px) {
@@ -328,7 +328,7 @@ ul li:nth-child(3) a:hover:before {
     .description{
         font-size: 0.875em;
     }
-    @keyframes animate {
+    /* @keyframes animate {
         0% {
           transform: translateY(900px) scale(0);
         }
@@ -336,7 +336,7 @@ ul li:nth-child(3) a:hover:before {
         100% {
           transform: translateY(-10vh) scale(1);
         }
-      }
+      } */
 }
 
 @media only screen and (max-width: 300px) {
@@ -380,3 +380,15 @@ ul li:nth-child(3) a:hover:before {
         font-size: 0.625em;
     }
 }
+
+@media only screen and (min-width: 280px) {
+    @keyframes animate {
+      0% {
+        transform: translateY(820px) scale(0);
+      }
+  
+      100% {
+        transform: translateY(-10vh) scale(1);
+      }
+    }
+  }
