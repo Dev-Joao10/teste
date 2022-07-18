@@ -18,7 +18,6 @@ body {
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    /* overflow: hidden; */
 }
 
 /* Menu */
@@ -467,16 +466,6 @@ ul li:nth-child(3) a:hover:before {
         height: 550px;
         box-shadow: none
     }
-
-    .container {
-        overflow-x: hidden;
-    }
-}
-
-@media only screen and (max-width: 1024px) and (max-height: 600px) {
-    .container {
-        overflow: hidden;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -556,121 +545,5 @@ ul li:nth-child(3) a:hover:before {
         overflow: auto;
     }
 }
-
-/* @media only screen and (max-width: 660px) {
-    .content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contact .contactForm .formBox {
-        width: auto;
-        height: 80vh;
-    }
-
-    .contact .contactForm {
-        height: 100vh;
-    }
-
-    .content {
-        height: 100%;
-        width: 100%;
-    }
-    .contact .contactForm {
-        padding: 0;
-    }
-
-    .contact .contactForm .formBox .inputBox.w50 {
-        width: 100%;
-    }
-
-    .contact .contactForm .formBox .inputBox.btn {
-        width: 30%;
-    }
-
-    .contact .contactInfo {
-        display: none;
-        opacity: 0;
-    }
-
-    .contact .contactForm .formBox .inputBox textarea {
-        height: 6.75rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .contact .contactForm .formBox .inputBox textarea {
-        height: 3.125rem;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .contact .contactForm .formBox .inputBox.btn {
-        width: 100%;
-        margin: 1.375rem;
-        display: flex;
-        justify-content: center;
-    }
-
-    .contact .contactForm .formBox .inputBox.btn {
-        width: 34%;
-    }
-}
-
-@media only screen and (max-width: 374px) {
-    .contact .contactForm .formBox .inputBox.btn {
-        width: 38%;
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-
-    div.contact {
-        margin: 0 auto;
-    }
-
-    .contact .contactForm .formBox {
-        height: 80vh;
-    }
-
-    .contact .contactForm {
-        height: 100vh;
-        margin-top: 1.25rem;
-    }
-}
-
-@media only screen and (max-width: 320px) and (max-height: 568px) {
-    .contact .contactForm .formBox .inputBox.btn {
-        width: 50%;
-        margin-top: -1.875rem;
-        padding: 1.125rem;
-    }
-}
-
-@media only screen and (max-width: 320px) and (max-height: 480px) {
-    .container {
-        overflow-y: auto;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    .contact .contactForm .formBox .inputBox.btn {
-        width: 50%;
-        padding: 0.625rem;
-    }
-}
-
-@media only screen and (max-width: 768px) and (orientation: landscape) {
-    .container {
-        overflow-y: auto;
-    }
-
-    .contact .contactInfo {
-        opacity: 0;
-        display: none;
-    }
-} */
 
 /* Fim da Responsividade */
