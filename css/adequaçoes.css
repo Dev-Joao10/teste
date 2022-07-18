@@ -233,6 +233,15 @@ ul li:nth-child(3) a:hover:before {
     .content {
         margin-top: 0.75rem;
     }
+    @keyframes animate {
+        0% {
+          transform: translateY(712px) scale(0);
+        }
+    
+        100% {
+          transform: translateY(-10vh) scale(1);
+        }
+      }
 }
 
 @media only screen and (max-width: 760px) {
@@ -273,6 +282,16 @@ ul li:nth-child(3) a:hover:before {
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
     }
+
+    @keyframes animate {
+        0% {
+          transform: translateY(950px) scale(0);
+        }
+    
+        100% {
+          transform: translateY(-10vh) scale(1);
+        }
+      }
 }
 
 @media only screen and (max-width: 437px) {
@@ -310,6 +329,18 @@ ul li:nth-child(3) a:hover:before {
         font-size: 0.75em;
     }
 }
+
+/* @media only screen and (min-width: 280px) {
+    @keyframes animate {
+      0% {
+        transform: translateY(805px) scale(0);
+      }
+  
+      100% {
+        transform: translateY(-10vh) scale(1);
+      }
+    }
+  } */
 
 @media only screen and (max-width: 259px) {
     .card-header img {
